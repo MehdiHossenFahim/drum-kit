@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  background-color: #25343f;
+  background-image: url("./images/drum-kit-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  backdrop-filter: blur(2px);
+}
+
+h1 {
+  font-size: 5rem;
+  color: rgb(255, 255, 255);
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 5px 0 red;
+}
+
+footer {
+  color: #bfc9d1;
+  font-family: "Audiowide", sans-serif;
+}
+
+.w {
+  background-image: url("./images/tom1.png");
+}
+
+.a {
+  background-image: url("./images/tom2.png");
+}
+
+.s {
+  background-image: url("./images/tom3.png");
+}
+
+.d {
+  background-image: url("./images/tom4.png");
+}
+
+.j {
+  background-image: url("./images/kick.png");
+}
+
+.k {
+  background-image: url("./images/crash.png");
+}
+
+.l {
+  background-image: url("./images/snare.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.4);
+  text-shadow: 3px 0 rgba(0, 0, 0, 0.451);
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(5px);
+}
